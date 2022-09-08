@@ -1,6 +1,6 @@
   <template>
       <div class="indexMenu">
-        <h5>{{ menuItem }}</h5>
+        <h4>{{ menuItem }}</h4>
       </div>
   </template>
   
