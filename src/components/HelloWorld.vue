@@ -1,7 +1,8 @@
 <template>
+  <img class="h-10 w-10 rounded-full" src="../assets/Will_Boudreaux_Jamestowne_20220904_094334.jpg" alt="" />
   <ul class="divide-y divide-gray-200">
     <li v-for="person in people" :key="person.email" class="py-4 flex">
-      <img class="h-10 w-10 rounded-full" :src="person.image" alt="" />
+      
       <div class="ml-3">
         <p class="text-sm font-medium text-gray-900">{{ person.name }}</p>
         <p class="text-sm text-gray-500">{{ person.email }}</p>
@@ -14,9 +15,7 @@
 const people = [
   {
     name: 'Todd Whitten',
-    email: 'todd.ryan.whitten@gmail.com',
-    image:
-      'https://thumbs.dreamstime.com/z/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg',
+    email: 'todd.ryan.whitten@gmail.com'
   },
 ]
 
