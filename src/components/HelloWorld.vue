@@ -2,7 +2,6 @@
   <img class="h-10 w-10 rounded-full" src="../assets/shannon_nyc.jpg" alt="" />
   <ul class="divide-y divide-gray-200">
     <li v-for="person in people" :key="person.email" class="py-4 flex">
-      
       <div class="ml-3">
         <p class="text-sm font-medium text-gray-900">{{ person.name }}</p>
         <p class="text-sm text-gray-500">{{ person.email }}</p>
