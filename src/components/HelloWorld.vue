@@ -1,5 +1,5 @@
 <template>
-  <img class="h-10 w-10 rounded-full" src="../assets/Will_Boudreaux_Jamestowne_20220904_094334.jpg" alt="" />
+  <img class="h-10 w-10 rounded-full" src="../assets/shannon_nyc.jpg" alt="" />
   <ul class="divide-y divide-gray-200">
     <li v-for="person in people" :key="person.email" class="py-4 flex">
       
