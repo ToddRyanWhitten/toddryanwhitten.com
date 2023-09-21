@@ -1,6 +1,6 @@
 <template>
   <HelloWorld msg="toddryanwhitten.com"/>
-  <IndexMenu menuItem="Please enjoy.."></IndexMenu>
+  <IndexMenu menuItem="2023-09-21"></IndexMenu>
 </template>
 
 <script>
