@@ -1,5 +1,5 @@
 <template>
-  <HelloWorld msg="toddryanwhitten.com"/>
+  <HelloWorld msg="Do what you can, with what you have, where you are"/>
   <IndexMenu menuItem="2023-09-21"></IndexMenu>
 </template>
 
