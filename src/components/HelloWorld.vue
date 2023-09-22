@@ -3,8 +3,12 @@
   <ul class="divide-y divide-gray-200">
     <li v-for="person in people" :key="person.email" class="py-4 flex">
       <div class="ml-3">
-        <p class="text-sm font-medium text-gray-900">{{ person.name }}</p>
-        <p class="text-sm text-gray-500">{{ person.email }}</p>
+        <p class="text-sm font-medium text-gray-900">
+            <a :href="'mailto:' + person.email">
+            {{ person.name }}
+            </a>
+        </p>
+        <p class="text-sm text-gray-500"></p>
       </div>
     </li>
   </ul>

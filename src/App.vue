@@ -1,6 +1,6 @@
 <template>
-  <HelloWorld msg="Do what you can, with what you have, where you are"/>
-  <IndexMenu menuItem="2023-09-21"></IndexMenu>
+  <HelloWorld msg="2023/09/22"/>
+  <IndexMenu menuItem="Do what you can, with what you have, where you are"></IndexMenu>
 </template>
 
 <script>
