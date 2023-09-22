@@ -16,13 +16,13 @@
 
 <script>
 const people = [
+{
+    name: 'Will Marsh Whitten',
+    email: 'will.marsh.whitten@gmail.com'
+  },
   {
     name: 'Todd Ryan Whitten',
     email: 'todd.ryan.whitten@gmail.com'
-  },
-  {
-    name: 'Will Marsh Whitten',
-    email: 'will.marsh.whitten@gmail.com'
   },
   {
     name: 'Shannon Etheridge Whitten',
