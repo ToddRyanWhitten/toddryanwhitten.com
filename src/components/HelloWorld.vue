@@ -1,5 +1,5 @@
 <template>
-  <img class="h-10 w-10 rounded-full" src="../assets/shannon_nyc_sm.jpg" alt="" />
+  <img class="h-10 w-10 rounded-full" src="../assets/splash.jpg" alt="" />
   <ul class="divide-y divide-gray-200">
     <li v-for="person in people" :key="person.email" class="py-4 flex">
       <div class="ml-3">
@@ -18,7 +18,8 @@
 const people = [
 {
     name: 'Todd Ryan Whitten',
-    email: 'todd.ryan.whitten@gmail.com'
+    email: 'todd.ryan.whitten@gmail.com',
+    phone: "404-333-4670"
   },
   // {
   //   name: 'Will Marsh Whitten',
