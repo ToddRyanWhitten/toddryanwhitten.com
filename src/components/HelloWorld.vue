@@ -19,7 +19,6 @@ const people = [
 {
     name: 'Todd Ryan Whitten',
     email: 'todd.ryan.whitten@gmail.com',
-    phone: "404-333-4670"
   },
   // {
   //   name: 'Will Marsh Whitten',
